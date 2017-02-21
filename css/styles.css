@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
-	
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,600i,700,700i');	
  	
   	.overlay{
   		background:  url("../img/overlay-back.png")no-repeat center;
@@ -171,6 +171,7 @@
 		    font-size: 12px;
 		    text-align: center;
 		    border-radius: 5px;
+		    font-family: 'Open Sans', sans-serif;
 	}
 
 	.pleca>b{
@@ -202,6 +203,7 @@
 		    font-size: 12px;
 		    text-align: center;
 		    border-radius: 5px;
+		    font-family: 'Open Sans', sans-serif;
 	}
 	.pleca2>b{
 		position: absolute;
@@ -218,8 +220,37 @@
 		position: absolute;
 		bottom: -3px;
     	left: 10%;
-
 	}
+	.pleca3{
+			position: absolute;
+		    top: -22px;
+		    width: 160px;
+		    height: auto;
+		    text-transform: uppercase;
+		    background: #4c4d4d;
+		    color: #fff;
+		    padding: 3% 5px;
+		    font-size: 12px;
+		    text-align: center;
+		    border-radius: 5px;
+		    font-family: 'Open Sans', sans-serif;
+	}
+	.pleca3>b{
+		position: absolute;
+	    top: -25px;
+	    color: #000;
+	    width: 100%;
+	    left: 0;
+	    text-align: center;
+	}
+	/*.pleca3:after{
+		content: url("../img/pleca2.png");
+		width: 10px;
+		height: 10px;
+		position: absolute;
+		bottom: -3px;
+    	left: 10%;
+	}*/
 
 	.bloque3 h1{
 		font-family: 'Playfair Display', serif;
@@ -247,7 +278,7 @@
 	}
 	.bloque-p p{
 		font-family: 'Playfair Display', serif;
-		font-size: 17px;
+		font-size: 16px;
     	font-weight: 600;
     	margin: 8% 0 3% 0;
 	}
@@ -265,6 +296,7 @@
 	.bloque4  h1{
 		font-family: 'Playfair Display', serif;
 		font-weight: 700;
+		font-size: 22px;
 	}
 	.bloque4 p{
 		font-size: 13px;
@@ -279,6 +311,7 @@
 	}
 	.bloque-graficas .nav>li>a{
 		color:rgba(0,0,0,0.5);
+		font-size: 10px;
 	}
 	.bloque-graficas .nav-tabs>li.active>a{
 		color:#000 !important;
@@ -314,13 +347,17 @@
 	.bloque-videos h1 {
 	    font-family: 'Playfair Display', serif;
 	    font-weight: 700;
+	    font-size: 22px;
 	}
 	.bloque-videos p {
 	    font-size: 13px;
 	    color: rgba(0,0,0,0.5);
 	}
+	.bloque-top{
+		margin-top: 105%;
+	}
 	.bloque-news{
-		margin-top: 15%;
+		margin-top: 1%;
 		padding-top: 0%;
 		padding-bottom: 15%;
 	}
@@ -364,7 +401,7 @@
 	}
 	.bloque-footer a.us{
 		color:#b6b6b6;
-		font-size: 11px;
+		font-size: 9px;
 		text-align: center;
 		padding: 0;
 		text-transform: uppercase;
@@ -422,6 +459,7 @@
 	.politico0 .bloque-news{
 		margin-top: 115%;
 	}
+
 	.politico0 .bloque-recientes{
 		display: block; 
 		float: left;
@@ -436,7 +474,10 @@
 	.politico0 .bloque-recientes h1{
 		text-transform: uppercase;
 		font-size: 20px;
-		    margin: 20px 0;
+		margin: 20px 0;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		color: rgba(0,0,0,0.5);
 	}
 	.politico0 .graficas2018 .nav-tabs>li{
 		width: 33.33%;
@@ -454,6 +495,142 @@
 	hr:nth-child(even){
 		float: right;
 	}
+	.bloque-cober-especial{
+		display: block; 
+		float: left;
+		position: relative;
+		width: 100%;
+		padding-top: 10%;
+	}
+	.bloque-cober-especial h1{
+		text-transform: uppercase;
+		font-size: 20px;
+		margin: 20px 0;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		color: rgba(0,0,0,0.5);
+	}
+	.bloque-cont-cober{
+		margin-top: 12%;
+		background: #000;
+	}
+	.bloque-cont-cober .img-bloque{
+		width: 100%;
+		height: auto;
+	}
+	.bloque-cont-cober  h2{
+		font-family: 'Playfair Display', serif;
+		font-weight: 700;
+		font-size: 22px;
+		color: #fff;
+	}
+	.bloque-cont-cober  h3{
+		font-family: 'Playfair Display', serif;
+		font-weight: 700;
+		font-size: 22px;
+		color: rgba(250,250,250,0.5);
+		padding-bottom:20%;
+	}
+	.bloque-cont-cober p{
+		font-size: 13px;
+    	color: rgba(0,0,0,0.5);
+	}
+
+	.bloque-pd{
+		padding-top: 23px;
+		padding-bottom: 0px;
+	}
+	.bloque-pd span img{
+		width: 13px;
+	}
+	.bloque-pd .text{
+		font-family: 'Playfair Display', serif;
+		color:rgba(250,250,250,0.5);
+		margin:25px 0 45px 0;
+		font-size: 17px;
+	}
+	.nota-cober .img-nota{
+		height:65px;
+		overflow: hidden;	
+	}
+	.nota-cober{
+		margin:30px 0 40px 0;
+	}
+	.nota-cober .img-nota img{
+		width: 100%;
+	}
+	.nota-cober .nota{
+		font-family: 'Playfair Display', serif;
+		color: rgba(250,250,250,0.5);
+		font-size: 16px;
+	}
+	.nota-cober .nota-black{
+		font-family: 'Playfair Display', serif;
+		color: #000;
+		font-size: 16px;
+	}
+	.bloque-falta{
+		background: gold;
+	}
+	.bloque-leaks{
+		background: #eb4723;
+	    padding: 15% 5%;
+	    color: #fff;
+	    font-family: 'Playfair Display', serif;
+	    font-weight: 700;
+	    font-size: 29px;
+	}
+	.bloque-leaks p{
+		font-family: arial;
+		color: rgba(250,250,250,0.5);
+		font-weight: 200;
+		margin-top: 5%;
+	}
+	.bloque-plumas{
+		margin-top: 15%;
+	}
+	.bloque-plumas .img-p{
+
+	}
+	.bloque-plumas .img-p img{
+		width: 125px;
+		height: 125px;
+		border-radius: 100%;
+	    border: 2px solid #ff4921;
+	    overflow: hidden;
+	}
+	.bloque-plumas .text{
+		font-family: 'Playfair Display', serif;
+	    font-weight: 700;
+	    font-size: 22px;
+	    line-height: 20px;
+    	margin-top: 8%;
+	}
+	.bloque-plumas .text p{
+		font-size: 13px;
+   	 	color: rgba(0,0,0,0.5);
+   	 	font-family: arial;
+   	 	font-weight: 200;
+   	 	margin-top: 5%;
+	}
+	.bloque-descarga{
+		margin-top: 10%;
+		padding-top: 15%;
+		border-top:1px solid rgba(0,0,0,0.1);
+	}
+	.bloque-descarga h2{
+		font-family: 'Playfair Display', serif;
+	    font-weight: 700;
+	    font-size: 22px;
+	}
+	.bloque-descarga p{
+		font-size: 13px;
+    	color: rgba(0,0,0,0.5)
+	}
+	.bloque-descarga .descarga{
+		margin:6% 0 10% 0;
+	}
+
 
 
 
