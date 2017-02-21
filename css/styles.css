@@ -79,6 +79,18 @@
 	    border-bottom: none !important;
 	    margin-top: 10px !important;
 	}
+	.nav-tabs>li:nth-child(1){
+		padding-right: 0;
+		text-align: left !important;
+	}
+	.nav-tabs>li:nth-child(2){
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.nav-tabs>li:nth-child(3){
+		padding-left: 0;
+		text-align: right !important;
+	}
 	.nav-tabs>li{
 		/*width: 50%;*/
    	    text-align: center
@@ -86,7 +98,7 @@
 	.nav>li>a{
 		padding: 10px 0% !important;
 		color:rgba(250,250,250,0.5);
-		font-size: 13px;
+		font-size: 11px;
 	}
 	.nav-tabs>li.active>a{
 		background: none !important;
@@ -501,6 +513,14 @@
 		position: relative;
 		width: 100%;
 		padding-top: 10%;
+	}
+	h1.title-recientes{
+		text-transform: uppercase;
+		font-size: 20px;
+		margin: 20px 0;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 300;
+		color: rgba(0,0,0,0.5);
 	}
 	.bloque-cober-especial h1{
 		text-transform: uppercase;
