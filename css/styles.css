@@ -79,15 +79,15 @@
 	    border-bottom: none !important;
 	    margin-top: 10px !important;
 	}
-	.nav-tabs>li:nth-child(1){
+	.nav-tabs>li.left-tab{
 		padding-right: 0;
 		text-align: left !important;
 	}
-	.nav-tabs>li:nth-child(2){
+	.nav-tabs>li.center-tab{
 		padding-left: 0;
 		padding-right: 0;
 	}
-	.nav-tabs>li:nth-child(3){
+	.nav-tabs>li.right-tab{
 		padding-left: 0;
 		text-align: right !important;
 	}
@@ -590,8 +590,30 @@
 		font-size: 16px;
 	}
 	.bloque-falta{
-		background: gold;
+		background: #000;
+		color: #fff;
+		font-family: 'Playfair Display', serif;
+		padding:15% 0;
 	}
+		.bloque-falta b{
+			font-size: 90px;
+		}
+		.bloque-falta b.naranja{
+			color: #eb4723;
+		}
+		.bloque-falta h1{
+			font-size: 32px;
+			padding:0;
+			margin:0;
+		}
+		.bloque-falta p{
+			font-family: 'Open Sans', sans-serif;
+			font-size: 10px;
+			width: 70%;
+			margin:0 auto;
+			display: block;
+			padding:10% 0;
+		}
 	.bloque-leaks{
 		background: #eb4723;
 	    padding: 15% 5%;
@@ -641,7 +663,7 @@
 	.bloque-descarga h2{
 		font-family: 'Playfair Display', serif;
 	    font-weight: 700;
-	    font-size: 22px;
+	    font-size: 30px;
 	}
 	.bloque-descarga p{
 		font-size: 13px;
@@ -649,6 +671,47 @@
 	}
 	.bloque-descarga .descarga{
 		margin:6% 0 10% 0;
+	}
+	.bloque-1-electoral{
+		padding-bottom: 15%;
+	}
+	.bloque-1-electoral h1{
+		font-family: 'Playfair Display', serif;
+		font-size: 22px;
+		 margin: 10% 0;
+	}
+	.bloque-1-electoral p{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+	}
+	.bloque-leaksn{
+		background: #eb4723;
+		padding:5% 0;
+		color: #fff;
+		margin-bottom: 15%;
+	}
+	.bloque-leaksn h1{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		font-size: 13px;
+		text-transform: uppercase;
+		color: rgba(250,250,250,0.5);
+	}
+	.bloque-leaksn h2{
+		font-family: 'Playfair Display', serif;
+		font-size: 35px;
+	}
+	.bloque-leaksn h3{
+		font-family: inherit;
+		font-size: 13px;
+		font-weight: 200;
+	}
+	.bloque-leaksn p{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 200;
+		font-size: 17px;
+		color: rgba(250,250,250,0.8);
+		margin:5% 0;
 	}
 
 
