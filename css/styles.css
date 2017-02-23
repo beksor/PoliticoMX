@@ -136,10 +136,20 @@
 		font-size: 15px;
 	}
 	.descript{
+		width: 100%;
 		position: absolute;
 	    bottom: 0;
 	    padding: 0 15px;
 	    background:  url("../img/overlay-back2.png")no-repeat center;
+	    background-size: cover;
+	    background-size: 100% 100%;
+	}
+	.descript-n{
+		width: 100%;
+		position: absolute;
+	    bottom: 0;
+	    padding: 0 15px;
+	    background:  none;
 	    background-size: cover;
 	    background-size: 100% 100%;
 	}
@@ -728,6 +738,10 @@
 		background: #eb4723;
 		padding:5% 0;
 		height: 524px;
+	}
+	.none{
+		color: transparent !important;
+		pointer-events: none !important;
 	}
 
 
