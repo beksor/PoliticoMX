@@ -1,7 +1,30 @@
 
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,600i,700,700i');	
- 	
+ 	.margin-top{
+ 		margin-top:15% !important;
+ 	}
+ 	.margin-top25{
+ 		margin-top:25% !important;
+ 	}
+ 	.margin-bottom{
+ 		margin-bottom: 15% !important;
+ 	}
+ 	.margin-bottom25{
+ 		margin-bottom: 25% !important;
+ 	}
+ 	.padding-top{
+ 		padding-top:15% !important;
+ 	}
+ 	.padding-top25{
+ 		padding-top:25% !important;
+ 	}
+ 	.padding-bottom{
+ 		padding-bottom: 15% !important;
+ 	}
+ 	.padding-bottom25{
+ 		padding-bottom: 25% !important;
+ 	}
   	.overlay{
   		background:  url("../img/overlay-back.png")no-repeat center;
   		position: absolute;
@@ -381,7 +404,7 @@
 	.bloque-news{
 		margin-top: 1%;
 		padding-top: 0%;
-		padding-bottom: 15%;
+		/*padding-bottom: 15%;*/
 	}
 	.bloque-news span{
 		border-bottom:1px solid rgba(0,0,0,0.3);
