@@ -766,6 +766,19 @@
 		color: transparent !important;
 		pointer-events: none !important;
 	}
+	.cont-plumas{
+		width: 100%;
+		overflow: auto;
+	}
+	.plumas{
+		width: 605px;
+	}
+	.plumas li{
+		width: 150px;
+	}
+	.plumas li a{
+		text-transform: uppercase;
+	}
 
 
 
