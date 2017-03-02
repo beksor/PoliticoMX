@@ -12,6 +12,9 @@ body{
 	}
 }*/
 /*margenes*/
+.marginTop-60{
+    margin-top: 60px;
+}
 .marginTop-40{
 	margin-top: 40px;
 }
@@ -27,8 +30,15 @@ body{
 .marginTop-10{
 	margin-top: 10px;
 }
+.no-padding{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
 .bg-black{
 	background: #000;
+}
+.bg-white{
+    background: #fff;
 }
 .container-fluid{
 	padding-right: 0 !important;
@@ -263,6 +273,258 @@ section .first{
     padding: 72px 60px;
     height: 312px;
 }
+h2.subtitle {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 40px 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: rgba(0,0,0,0.5);
+}
+hr {
+    margin-top: 20spx !important;
+    margin-bottom: 10px !important;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,0.2) !important;
+    width: 30%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+hr:nth-child(even) {
+    float: right !important;
+}
+.bloque-graficas {
+    margin-top: 0px;
+    padding-top: 5%;
+}
+.pleca2 {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    min-width: 160px;
+    height: auto;
+    text-transform: uppercase;
+    background: #ff4921;
+    color: #fff;
+    padding: 9px 5px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.pleca2>b {
+    position: absolute;
+    top: -20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: rgba(0,0,0,0.5);
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+.pleca2:after {
+    content: url(../img/pleca2.png);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: -3px;
+    left: 10%;
+}
+.nav-tabs>li.active>a{
+    background: url("../img/pleca-graficas.png")no-repeat !important;
+    background-position: center bottom !important;
+    background-size: 20px !important;
+    border:none !important;
+    font-weight: 600 !important;
+}
+.nav-tabs{
+    border:none !important;
+}
+.nav-tabs>li>a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: rgba(0,0,0,0.5);
+}
+.bloque-graficas .share{
+    display: block;
+    background: #fff;
+    padding: 5px 15px;
+}
+.bloque-graficas .share a{
+    color: #4d4e52;
+}
+.bloque-graficas .share a:hover{
+    color:#eb4723;
+}
+.btn-mas {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 8% 0;
+    font-weight: 600;
+}
+.btn-mas img {
+    width: 27px;
+}
+.bloque-news {
+    margin-top: 0%;
+    padding-top: 0%;
+    /* padding-bottom: 15%; */
+    display: block;
+    float: left;
+}
+.bloque-news .bg-white{
+    padding-top:5%;
+    padding-bottom: 5%;
+}
+.bloque-news span {
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+}
+.bloque-news span img {
+    width: 12%;
+    padding: 0px 0 17px 0;
+}
+.bloque-news h4 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+    margin:0;
+    padding: 0;
+    font-size: 30px;
+}
+.bloque-news p {
+    font-size: 14px;
+    color: rgba(0,0,0,0.7);
+    padding: 0 5% 5% 5%;
+}
+.bloque-news input {
+    width: 65%;
+    background: #d9d9d9;
+    border: none;
+    border-radius: 0;
+    margin: 2% 0;
+}
+.bloque-news button {
+    width: 35%;
+    color: #fff;
+    background: #eb4723;
+    border: none;
+    border-radius: 0;
+    padding: 4% 0;
+    font-size: 13px;
+}
+.bloque-descarga {
+    margin-top: 20px;
+    padding-top: 0%;
+    display: block;
+    float: left;
+}
+.bloque-descarga h4 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.bloque-descarga p {
+    font-size: 13px;
+    color: rgba(0,0,0,0.5);
+}
+.bloque-descarga .descarga {
+    margin: 6% 0 10% 0;
+}
+.img-center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.bloque-falta {
+    background: #000;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    padding: 15% 0;
+}
+.bloque-falta h4 {
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
+}
+.bloque-falta b {
+    font-size: 90px;
+}
+.bloque-falta p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    padding: 10% 0;
+}
 
 
 
+
+
+
+
+
+
+/*radio*/
+.funkyradio label {
+    /*min-width: 400px;*/
+    width: 50%;
+    float: left;
+    font-weight: normal;
+}
+funkyradio input[type="radio"]:empty, .funkyradio input[type="checkbox"]:empty {
+    display: none;
+}
+.funkyradio input[type="radio"]:empty ~ label, .funkyradio input[type="checkbox"]:empty ~ label {
+    position: relative;
+    line-height: 2.5em;
+    text-indent: 3.25em;
+    margin-top: 2em;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.funkyradio input[type="radio"]:empty ~ label:before, .funkyradio input[type="checkbox"]:empty ~ label:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content:'';
+    width: 2.5em;
+    background: #D1D3D4;
+    border-radius: 100%;
+}
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label:before, .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: #C2C2C2;
+    border-radius: 100%;
+}
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label, .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label {
+    color: #888;
+}
+.funkyradio input[type="radio"]:checked ~ label:before, .funkyradio input[type="checkbox"]:checked ~ label:before {
+    content:'\2714';
+    text-indent: .9em;
+    color: #333;
+    background-color: #ccc;
+    border-radius: 100%;
+}
+.funkyradio input[type="radio"]:checked ~ label, .funkyradio input[type="checkbox"]:checked ~ label {
+    color: #777;
+}
+.funkyradio input[type="radio"]:focus ~ label:before, .funkyradio input[type="checkbox"]:focus ~ label:before {
+    box-shadow: 0 0 0 3px #999;
+}
+.funkyradio-news input[type="radio"]:checked ~ label:before, .funkyradio-news input[type="checkbox"]:checked ~ label:before {
+    color: #eb4723 !important;
+    background-color: #fff;
+    border-radius: 100%;
+    border:1px solid #b4b4b4;
+}
