@@ -415,7 +415,7 @@ hr:nth-child(even) {
     font-size: 13px;
 }
 .bloque-descarga {
-    margin-top: 20px;
+    /*margin-top: 30px;*/
     padding-top: 0%;
     display: block;
     float: left;
@@ -459,7 +459,76 @@ hr:nth-child(even) {
     display: block;
     padding: 10% 0;
 }
+.section2 figure{
+    padding-top: 15%;
+}
+.section2 figcaption{
+    color:#000;
+}
+.section2 figure p{
+    padding: 0px 0px 0px 15px;
+    font-size: 12px;
+    color: rgba(0,0,0,0.5);
+    margin:0;
+}
+.section2 .bloque-p p{
+    color: rgba(0,0,0,0.8);
+}
+.section2 .bloque-p span{
+    color: rgba(0,0,0,0.5);
+    font-size: 12px;
+}
+.section2 .line{
+    background: rgba(0,0,0,0.3);
+    height: 1px;
+}
+.section2 div{
+    height: auto;
+    margin-bottom: 10px;
+}
 
+.plecaB {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    min-width: 160px;
+    height: auto;
+    text-transform: uppercase;
+    background: #000;
+    color: #fff;
+    padding: 9px 5px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+.plecaB>b {
+    position: absolute;
+    top: -20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: rgba(0,0,0,0.5);
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
+.plecaB:after {
+    content: url(../img/pleca.png);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    bottom: -3px;
+    left: 10%;
+}
+.bloque-NewsDown{
+    padding-top: 5%;
+    margin-top: 5%;
+    border-top:1px solid rgba(0,0,0,0.1);
+}
+.bloque-NewsDown .bloque-descarga .bg-white{
+    padding-top: 16%;
+    padding-bottom: 9%;
+}
 
 
 
