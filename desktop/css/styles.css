@@ -27,12 +27,51 @@ body{
 .marginTop-15{
 	margin-top: 15px;
 }
+.paddingTop-15{
+    padding-top: 15px;
+}
 .marginTop-10{
 	margin-top: 10px;
+}
+.paddingTop-10{
+    padding-top: 10%;
+}
+.paddingTop-20{
+    padding-top: 20%;
+}
+.paddingTop-25{
+    padding-top: 25%;
+}
+.paddingTop-30{
+    padding-top: 30%;
+}
+.paddingBot-10{
+    padding-bottom: 10%;
+}
+.marginTop-5{
+    margin-top: 5px;
+}
+.paddingTop-5{
+    padding-top: 5%;
+}
+.paddingBot-5{
+    padding-bottom: 5%;
+}
+.paddingBot-15{
+    padding-bottom: 15%;
+}
+.paddingBot-20{
+    padding-bottom: 20%;
+}
+.paddingBot-30{
+    padding-bottom: 30%;
 }
 .no-padding{
     padding-right: 0 !important;
     padding-left: 0 !important;
+}
+.top40{
+    top:40px !important;
 }
 .bg-black{
 	background: #000;
@@ -201,6 +240,16 @@ body{
     border-radius: 5px;
     font-family: 'Open Sans', sans-serif;
 }
+.pleca-n>b {
+    position: absolute;
+    top: -25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: rgba(0,0,0,0.5);
+    width: 100%;
+    left: 0;
+    text-align: center;
+}
 .pleca-n:after {
     content: url(../img/pleca2.png);
     width: 10px;
@@ -222,7 +271,7 @@ aside span{
 }
 .bloque-p {
     padding-top: 23px;
-    padding-bottom: 45px;
+    /*padding-bottom: 45px;*/
 }
 .bloque-p span {
     font-size: 13px;
@@ -529,8 +578,71 @@ hr:nth-child(even) {
     padding-top: 16%;
     padding-bottom: 9%;
 }
+.bloque-minuta{}
+.bloque-minuta figcaption{
+    color: #000;
+    margin:15px 15px;
+}
+.bloque-minuta figure span {
+    color: rgba(0,0,0,0.4);
+     margin:15px 15px
+}
+.bloque-minuta .pleca-n{
+    color:#fff;
+}
+.list-minuta p{
+    font-family: 'Playfair Display', serif;
+    font-size: 12px;
+    font-weight: 600;
+        margin: 10% 0 0 0;
+}
+.list-minuta .line{
+    background: rgba(0,0,0,0.3);
+}
+.bloque-plumas{
 
-
+}
+.bloque-plumas .cont{
+}
+.bloque-plumas .cont-img span{
+    border-radius: 100%;
+    width: 105px;
+    height: 105px;
+    display: inline-block;
+    background: red;
+    overflow: hidden;
+    border:2px solid #ff4921;
+}
+.bloque-plumas .cont .cont-img span img{
+    width: auto;
+}
+.bloque-plumas .cont .name h4{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 20px;
+    color:rgba(0,0,0,0.5);
+}
+.bloque-plumas .cont .name span {
+    color: rgba(0,0,0,0.4);
+    margin: 15px 15px;
+    font-size: 11px;
+    margin-right: 0;
+    margin-left: 0;
+    display: block;
+    text-align: left;
+}
+footer{
+    background: url("../img/pleca-f.png")no-repeat;
+    background-position: left top;
+    background-size: auto;
+}
+footer .btn-link,footer a, footer p{
+    color: #4d4d4d !important;
+    text-decoration: none !important;
+}
+footer .btn-link:hover,footer a:hover{
+    color: #ff4921 !important;
+}
 
 
 
@@ -544,7 +656,7 @@ hr:nth-child(even) {
     float: left;
     font-weight: normal;
 }
-funkyradio input[type="radio"]:empty, .funkyradio input[type="checkbox"]:empty {
+.funkyradio input[type="radio"]:empty, .funkyradio input[type="checkbox"]:empty {
     display: none;
 }
 .funkyradio input[type="radio"]:empty ~ label, .funkyradio input[type="checkbox"]:empty ~ label {
