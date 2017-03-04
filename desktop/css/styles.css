@@ -16,10 +16,10 @@ body{
     margin-top: 60px;
 }
 .marginTop-40{
-	margin-top: 40px;
+	margin-top: 40px !important;
 }
 .marginTop-30{
-	margin-top: 30px;
+	margin-top: 30px !important;
 }
 .marginTop-20{
 	margin-top: 20px;
@@ -642,6 +642,18 @@ footer .btn-link,footer a, footer p{
 }
 footer .btn-link:hover,footer a:hover{
     color: #ff4921 !important;
+}
+.cont-polileaks .bloque-p{
+    height: auto;
+    float: left;
+}
+.cont-polileaks .bloque-p p{
+    color: #000;
+    margin:0;
+}
+.cont-polileaks .bloque-p span{
+    color: rgba(0,0,0,0.5);
+    margin-bottom: 2%;
 }
 
 
