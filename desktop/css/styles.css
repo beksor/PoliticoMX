@@ -15,6 +15,9 @@ body{
 .marginTop-60{
     margin-top: 60px;
 }
+.marginTop-50{
+    margin-top: 50px;
+}
 .marginTop-40{
 	margin-top: 40px !important;
 }
@@ -70,14 +73,21 @@ body{
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
+.no-paddingTB{
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
 .top40{
     top:40px !important;
 }
+.marginTop-175{
+    margin-top: -175px !important;
+}
 .bg-black{
-	background: #000;
+	background: #000 !important;
 }
 .bg-white{
-    background: #fff;
+    background: #fff !important;
 }
 .container-fluid{
 	padding-right: 0 !important;
@@ -156,7 +166,7 @@ body{
 }
 .polileaks {
     background: #eb4723;
-    margin-top: -175px;
+    /*margin-top: -175px;*/
 }
 .polileaks h3 {
     font-family: 'Playfair Display', serif;
@@ -166,19 +176,19 @@ body{
 .polileaks p {
     color: #fff;
 }
-.polileaks .share{
+.share{
 	width: 100%;
 	display: block;
 	background: #000;
 	padding: 5px 15px;
 }
-.polileaks .share a{
+.share a{
 	color: #4d4e52;
 }
-.polileaks .share a:hover{
+.share a:hover{
 	color:#eb4723;
 }
-.polileaks .pleca {
+.pleca {
     position: relative;
     width: 160px;
     height: auto;
@@ -193,7 +203,7 @@ body{
     display: block;
     margin-top: 15px;
 }
-.polileaks .pleca:after {
+.pleca:after {
     content: url(../img/pleca.png);
     width: 10px;
     height: 10px;
@@ -347,6 +357,12 @@ hr:nth-child(even) {
     margin-top: 0px;
     padding-top: 5%;
 }
+.bloque-graficas .title{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 15px;
+    padding: 15px;
+}
 .pleca2 {
     position: absolute;
     top: 40px;
@@ -379,6 +395,16 @@ hr:nth-child(even) {
     position: absolute;
     bottom: -3px;
     left: 10%;
+}
+.electoral{
+    width: 100%;
+    left: 0;
+    border-radius: 0;
+    text-align: left;
+    padding-left: 5%;
+}
+.electoral:after{
+    left: 5%;
 }
 .nav-tabs>li.active>a{
     background: url("../img/pleca-graficas.png")no-repeat !important;
