@@ -769,6 +769,15 @@ footer .btn-link:hover,footer a:hover{
     line-height: 30px;
 }
 
+button.play{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    z-index: 10;
+    width: 82px;
+    height: 114px;
+    background:transparent;
+}
 
 
 
