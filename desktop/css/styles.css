@@ -778,6 +778,40 @@ button.play{
     height: 114px;
     background:transparent;
 }
+.sub-menu{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    background: rgba(0,0,0,0.7);
+}
+
+.sub-menu figure{
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+    color: rgba(250,250,250,0.5);
+    padding: 0 5px;
+    font-size: 13px;
+}
+.sub-menu figure figcaption{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto 10px auto;
+    border: 1px solid transparent;
+}
+.sub-menu figure figcaption:hover{
+    border: 1px solid #ff4921;
+}
+.sub-menu figure figcaption img{
+    width: auto;
+    margin-left: -15PX;
+}
+
 
 
 
