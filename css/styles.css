@@ -980,6 +980,34 @@
 		display: inline;
     	vertical-align: sub;
 	}
+	.cont-alerta{
+		background: #dadada;
+		position: absolute;
+		top: 50px;
+		left: 0;
+		width: 100%;
+		min-height: 30px;
+		height: auto;
+		z-index: 100;
+	}
+	.cont-alerta ul{
+		margin:0;
+		padding:0;
+	}
+	.cont-alerta ul li{
+		list-style: none;
+		margin:5px 0;
+		background: #fff;	
+		padding:0;
+	}
+	.cont-alerta ul li img{	
+		width: 30px;
+		display: inline-block;
+		margin:5px;
+	}
+	.cont-alerta ul li p{
+		display: inline-block;
+	}
 
 
 
