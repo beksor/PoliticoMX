@@ -924,3 +924,152 @@ button.play{
     #custom-search-input .glyphicon-search{
         font-size: 23px;
     }
+
+
+    @media only screen and (max-width: 1024px) {
+        .navbar{
+            left: 0;
+        }
+        .navbar-header{
+            width: 16% !important;
+            padding-right: 0 !important;
+        }
+        .navbar-nav>li>a{
+
+        }
+        .sub-menu{
+            padding-top: 65px;
+            z-index: 1;
+        }
+    }
+    @media only screen and (max-width: 768px){
+        .sub-menu{
+            padding-top: 100px;
+            z-index: 1;
+                background: rgba(0,0,0,0.8);
+        }
+        .sub-menu .container div{
+            width: 33.33% !important;
+            float: left;
+        }
+        .nav{
+            background: rgba(0,0,0,0.5);
+            width: 60%;
+            height: 0px;
+            overflow: hidden;
+            transition: height 1s;
+            -webkit-transition: height 1s;
+            float: right !important;
+            margin-top: 40px !important;
+        }
+        .aparece{
+            
+            height: auto;
+        }
+        .navbar-nav>li{
+            width: 100%;
+            float: right !important;
+            display: block;
+            text-align:center;
+        }
+        
+        .navbar-nav:after{
+            content: "" !important;
+            font-style: 15px;
+            position: absolute;
+            top: 5px;
+            right: 0;
+            width: 10%;
+            height: 30px;
+            background: rgba(250,250,250,0.3) url("../img/menu.png")no-repeat;
+            background-size: contain;
+            background-position: center;
+            z-index: 1000;
+        }
+        .buscar{
+            position: absolute !important;
+            top: 0;
+            right: 22%;
+            width: 50% !important;
+            margin-top: 5px;
+        }
+    }
+
+
+/*pmx octubre*/
+.pmx-bloque{
+    background: #2e2e2e;
+}
+.pmx-bloque>.bloque-minuta{
+    margin-top: 8%;
+}
+.pmx-bloque>.section2 figure{
+    padding-top: 0%;
+}
+.pmx-bloque>.section2 figure>.pleca2{
+    top: -20px;
+}
+.pmx-centralelectoral .cont-ce{
+    background: #e9e9e9;
+}
+.pmx-centralelectoral img{
+    width: 100%;
+    display: block;
+    margin:0 auto;
+}
+.pmx-centralelectoral p{
+    color: #000;
+    font-size: 36px;
+    font-weight: lighter;
+}
+.pmx-centralelectoral p b{
+    color: #ff4921;
+    font-weight: lighter;
+}
+.pmx-centralelectoral h2{
+    color:#ff4921;
+    font-size: 15px;
+    margin:5px 0 10px 0;
+}
+.pmx-centralelectoral .btn-central{
+    background: #ff4921 !important;
+    margin-top: 40px;
+    color: #fff;
+    height: 50px;
+    border-radius: 0;
+    border: 2px solid #ffa997;
+}
+.pmx-diarioscamp{
+    
+}
+.pmx-diarioscamp h2{
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+hr.style1{
+    border-top: 2px solid #ff4921 !important;
+    width: 25%;
+}
+.pmx-boxcamp{}
+.pmx-tendencias{
+    border-bottom:4px solid #ff4921;
+    padding-bottom: 3%;
+}
+.pmx-tendencias h2{
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.pmx-tendencias h2>hr.style1{
+    width: 13% !important;
+}
+.pmx-banner{
+    background: #ff4921;
+}

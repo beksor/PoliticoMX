@@ -358,6 +358,17 @@
 		width: 12%;
 		float: left;
 	}
+	.bloque-p div img{
+		margin: 8% 0 3% 0;
+	}
+	.bloque-p p.title{
+		font-family: 'Playfair Display', serif;
+		font-size: 20px;
+    	font-weight: 600;
+    	margin: 0% 0 0% 15px;
+    	color: #fff;
+	}
+
 	.line{
 		width: 85%;
 	    height: 1px;
@@ -1152,3 +1163,16 @@
 	#custom-search-input .glyphicon-search{
 	    font-size: 23px;
 	}
+	.block-table table{
+		width: 100%;
+	}
+	.block-table table th{
+		width: 20%;
+		background: gold;
+	}
+	.block-table table tr{
+		border-bottom:1px solid #cccccc;
+	}
+
+
+

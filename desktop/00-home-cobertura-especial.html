@@ -34,7 +34,7 @@
     		      </a>
     		    </div>
     		    <ul class="nav navbar-nav">
-    		      <li class="active"><a href="#">central electoral</a></li>
+    		      <li class="active"><a href="00-home-cobertura-especial.html">central electoral</a></li>
     		      <li><a href="#">minuta politica</a></li>
     		      <li><a href="#">politileaks</a></li>
     		      <li><a href="#">moneros</a></li>
@@ -960,6 +960,14 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <script>
+              $(document).ready(function() {
+                $(".navbar-nav").click(function() {
+                  //alert("furula");
+                  $(".nav").toggleClass("aparece");
+                });
+              });
+            </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
