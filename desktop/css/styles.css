@@ -999,6 +999,7 @@ button.play{
 /*pmx octubre*/
 .pmx-bloque{
     background: #2e2e2e;
+    margin-top: 2%;
 }
 .pmx-bloque>.bloque-minuta{
     margin-top: 8%;
@@ -1010,6 +1011,7 @@ button.play{
     top: -20px;
 }
 .pmx-centralelectoral .cont-ce{
+    margin-top: 3%;
     background: #e9e9e9;
 }
 .pmx-centralelectoral img{
@@ -1055,6 +1057,13 @@ hr.style1{
     width: 25%;
 }
 .pmx-boxcamp{}
+.pmx-boxcamp .boxc{
+    width: 114px;
+    height: 114px;
+    float: left;
+    border:1px solid #fff;
+    background: gold;
+}
 .pmx-tendencias{
     border-bottom:4px solid #ff4921;
     padding-bottom: 3%;
