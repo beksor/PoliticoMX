@@ -1082,3 +1082,44 @@ hr.style1{
 .pmx-banner{
     background: #ff4921;
 }
+.pmx-central18{
+   
+}
+.pmx-central18 h1{
+    font-weight: lighter;
+    margin-bottom:40px;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.pmx-central18 img{
+    width: 52px;
+    float: left;
+    margin-right:15px;
+}
+.pmx-central18 h2{
+    font-weight: lighter;
+    margin:0;
+    color: #000;
+    text-decoration: none;
+}
+.pmx-central18 h3{
+    color: #7e7e7e;
+    font-weight: lighter;
+    font-size: 15px;
+    margin:0;
+}
+.pmx-central18 a:hover{
+    text-decoration: none;
+}
+.pmx-central18 .box18{
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
