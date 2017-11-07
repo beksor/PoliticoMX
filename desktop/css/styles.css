@@ -1114,6 +1114,25 @@ hr.style1{
 .pmx-central18 .box18{
     margin-bottom: 40px;
 }
+.pmx-diarioscamp>.box-title{
+    background: #e4e4e4;
+    margin-top: 30px;
+}
+.pmx-diarioscamp p{
+    margin:0;
+    color: #b9b9b9;
+}
+.pmx-diarioscamp h1{
+    font-weight: 200;
+    margin-bottom:5px;
+    margin-top: 5px;
+    font-size: 40px;
+}
+.pmx-diarioscamp p:nth-child(2){
+    color: red;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 
 
