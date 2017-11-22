@@ -1133,7 +1133,102 @@ hr.style1{
     margin-top: 40px;
     margin-bottom: 40px;
 }
-
+.pmx-diariosint{
+}
+.pmx-diariosint p{
+    margin:30px 0 30px 0;
+    color: #b9b9b9;
+}
+.pmx-diariosint .cont-info{
+    background:#dfdfdf;
+    position: relative;
+    height: 415px;
+        margin-bottom: 60px;
+}
+.pmx-diariosint .cont-info img.persona{
+    width: 315px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.pmx-diariosint .cont-info img.lagrande{
+    width: 90px;
+    position: absolute;
+    right: 20px;
+    bottom: 0;
+}
+.pmx-diariosint .cont-info .names{
+    margin-top: 50px;
+}
+.pmx-diariosint .cont-info .first-name{
+    background: #607d89;
+    font-size: 30px;
+    font-weight: 200;
+    color: #fff;
+    padding: 5px;
+}
+.pmx-diariosint .cont-info .last-name{
+    background: #dfdfdf;
+    font-size: 30px;
+    font-weight: 600;
+    color: #607d89;
+    padding: 5px;
+}
+.pmx-diariosint .cont-info .datos{
+    /*border:1px solid gold;*/
+    margin-top: 15px;
+}
+.pmx-diariosint .cont-info .datos ul{
+    padding:0;
+    font-size: 15px;
+}
+.pmx-diariosint .cont-info .datos ul:nth-child(1){
+    color: #e34a19;
+}
+.pmx-diariosint .cont-info .datos ul li{
+    background-color: transparent;
+    padding: 8px 15px;
+    border:none;
+}
+.pmx-diariosint .entradas{
+    /*background-color: red;*/
+    border-bottom: 1px solid #b3b3b3;
+    padding-bottom:30px;
+    margin-bottom: 30px;
+}
+.pmx-diariosint .entradas img{
+    width: 225px;
+    margin:0 27px;
+}
+.pmx-diariosint .entradas p{
+    width: 66%;
+    display: inline-block;
+    color: #000;
+}
+.pmx-diariosint .entradas p b{
+    color: #e34a19;
+}
+.pmx-diariosint .entradas a{
+    text-decoration: none;
+    color: #e34a19;
+}
+.pmx-cguerra{
+    /*background: red;*/
+}
+.pmx-cguerra .cobertura-cont{
+    border-bottom: 1px solid #cccccc;
+}
+.pmx-cguerra .cobertura-cont p{
+    font-size: 17px;
+}
+.pmx-cguerra .cobertura-cont p b{
+    color: #e34a19;
+}
+.pmx-cguerra .cobertura-cont figcaption{
+    color: #e34a19;
+        font-family: inherit;
+        font-size: 20px;
+}
 
 
 
